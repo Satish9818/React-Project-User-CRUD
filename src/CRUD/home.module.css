@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    height: 73px;
+    width: 100%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+
+#home>article {
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+#home>article>a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+#myForm {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 150px;
+    color: white;
+
+}
+
+#myForm>form {
+    border: 2px solid white;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#myForm>form>label {
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#myForm>form>input {
+    width: 200px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+#myForm>form>button {
+    margin-left: 65px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+#myForm>form>button:hover {
+transform: scale(1.1);
+
+}
+
+
+#fetchData {
+    height: 200vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#fetchData>#profilePage {
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+
+
+}
+#fetchData>#profilePage:hover{
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+#fetchData>#profilePage>h1 {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    margin-left: 90px;
+    border-radius: 50%;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#fetchData>#profilePage>.name,
+.salary,
+.company {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#fetchData>#profilePage>.edit {
+    height: 30px;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 3px white;
+}
+#fetchData>#profilePage>.edit >a{
+    text-decoration: none;
+    color: black;
+}
+
+#fetchData>#profilePage>.delete {
+    height: 30px;
+    width: 100px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 3px white;
+}
+
+#fetchData>#profilePage>.delete:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fetchData>#profilePage>.edit:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#myForm>form>#eu1{
+    padding-left: 45px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+#myForm>form>#cu1{
+    padding-left: 45px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+}
